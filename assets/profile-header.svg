@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Suhang Xia — Robotics Researcher</title>
+  <desc id="desc">A dark scientific instrument-style header with a signal plot and research coordinates.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111411"/>
+      <stop offset="0.56" stop-color="#171917"/>
+      <stop offset="1" stop-color="#202420"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7f3324"/>
+      <stop offset="0.5" stop-color="#b54b32"/>
+      <stop offset="1" stop-color="#e47a5d"/>
+    </linearGradient>
+    <pattern id="microgrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#f1efe8" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="plotClip"><rect x="745" y="51" width="480" height="258" rx="2"/></clipPath>
+  </defs>
+
+  <rect width="1280" height="360" rx="8" fill="url(#panel)"/>
+  <rect width="1280" height="360" rx="8" fill="url(#microgrid)"/>
+  <path d="M0 0H1280V360H0Z" fill="none" stroke="#f1efe8" stroke-opacity="0.14"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="56" y="56" fill="#b54b32" font-size="13" font-weight="700" letter-spacing="2.4">RESEARCH PROFILE / 01</text>
+    <text x="56" y="142" fill="#f7f5ef" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="64" font-weight="650" letter-spacing="-2.5">Suhang Xia</text>
+    <text x="59" y="185" fill="#c9cbc6" font-size="17" letter-spacing="1">ROBOTICS RESEARCHER + SYSTEMS ENGINEER</text>
+
+    <line x1="58" y1="218" x2="676" y2="218" stroke="#f1efe8" stroke-opacity="0.18"/>
+
+    <g font-size="13">
+      <text x="58" y="254" fill="#777d75">FOCUS_01</text>
+      <text x="142" y="254" fill="#f1efe8">VISUOTACTILE LEARNING</text>
+      <text x="58" y="282" fill="#777d75">FOCUS_02</text>
+      <text x="142" y="282" fill="#f1efe8">PHYSICAL ROBOT SYSTEMS</text>
+      <text x="58" y="310" fill="#777d75">FOCUS_03</text>
+      <text x="142" y="310" fill="#f1efe8">SURGICAL ROBOTICS</text>
+    </g>
+  </g>
+
+  <g clip-path="url(#plotClip)">
+    <rect x="745" y="51" width="480" height="258" fill="#0d0f0d" fill-opacity="0.64"/>
+    <g stroke="#f1efe8" stroke-opacity="0.08" stroke-width="1">
+      <line x1="745" y1="103" x2="1225" y2="103"/><line x1="745" y1="155" x2="1225" y2="155"/>
+      <line x1="745" y1="207" x2="1225" y2="207"/><line x1="745" y1="259" x2="1225" y2="259"/>
+      <line x1="825" y1="51" x2="825" y2="309"/><line x1="905" y1="51" x2="905" y2="309"/>
+      <line x1="985" y1="51" x2="985" y2="309"/><line x1="1065" y1="51" x2="1065" y2="309"/>
+      <line x1="1145" y1="51" x2="1145" y2="309"/>
+    </g>
+    <path d="M745 244 C777 244 781 235 801 235 C824 235 832 251 854 249 C878 247 884 212 907 210 C930 208 940 233 960 228 C981 223 986 176 1008 174 C1031 172 1040 206 1060 198 C1082 189 1086 130 1111 129 C1137 127 1138 171 1162 157 C1183 145 1191 90 1225 80" fill="none" stroke="#f1efe8" stroke-opacity="0.2" stroke-width="7"/>
+    <path d="M745 244 C777 244 781 235 801 235 C824 235 832 251 854 249 C878 247 884 212 907 210 C930 208 940 233 960 228 C981 223 986 176 1008 174 C1031 172 1040 206 1060 198 C1082 189 1086 130 1111 129 C1137 127 1138 171 1162 157 C1183 145 1191 90 1225 80" fill="none" stroke="url(#signal)" stroke-width="2.5"/>
+    <path d="M745 282 C795 276 820 287 857 272 C895 257 919 278 952 258 C984 238 1016 258 1048 230 C1084 199 1112 218 1144 187 C1174 158 1194 163 1225 142" fill="none" stroke="#f1efe8" stroke-opacity="0.38" stroke-width="1.5" stroke-dasharray="5 7"/>
+  </g>
+
+  <g fill="#b54b32" filter="url(#glow)">
+    <circle cx="907" cy="210" r="4"/><circle cx="1008" cy="174" r="4"/><circle cx="1111" cy="129" r="4"/><circle cx="1225" cy="80" r="4"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">
+    <text x="757" y="76" fill="#777d75">ACTION CONFIDENCE</text>
+    <text x="1169" y="296" fill="#777d75">t →</text>
+    <text x="1177" y="71" fill="#e47a5d">0.94</text>
+  </g>
+
+  <g transform="translate(706 76)">
+    <circle r="5" fill="#b54b32"/>
+    <circle r="12" fill="none" stroke="#b54b32" stroke-opacity="0.3"/>
+  </g>
+  <text x="706" y="332" text-anchor="middle" fill="#777d75" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.5">LONDON · 51.5072° N</text>
+</svg>
