@@ -58,7 +58,7 @@ Team lead and system architect for autonomous object sorting, integrating percep
 
 24 public repositories: **9 non-fork** and **15 forked**. Non-fork repositories have received **26 stars** and **8 forks**.
 
-Primary languages: Python (4) · Astro (1) · HTML (1) · Makefile (1) · MATLAB (1) · Not detected (1). Each non-fork repository counts once, including archived repositories. Repositories without a detected language are shown separately. Language counts describe repository composition, not proficiency or authorship.
+Primary languages: Python (4) · Astro (1) · HTML (1) · JavaScript (1) · Makefile (1) · MATLAB (1). Each non-fork repository counts once, including archived repositories. Repositories without a detected language are shown separately. Language counts describe repository composition, not proficiency or authorship.
 
 Source: [GitHub REST API](https://api.github.com/users/SuhangXia/repos?type=owner). Public repositories only. [Refresh workflow](https://github.com/SuhangXia/suhangxia/actions/workflows/profile-stats.yml).
 
