@@ -1,70 +1,79 @@
-<div align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Suhang Xia — robotics researcher working across perception, touch, and physical action" />
-</div>
+<h1 align="center">Suhang Xia · 夏苏杭</h1>
+
+<p align="center"><b>Robot Learning &nbsp; / &nbsp; Tactile Perception &nbsp; / &nbsp; Surgical Robotics</b></p>
 
 <p align="center">
-  <a href="https://suhangxia.github.io"><img src="https://img.shields.io/badge/RESEARCH_PORTFOLIO-B54B32?style=for-the-badge&logo=safari&logoColor=white" alt="Research portfolio" /></a>
-  <a href="https://scholar.google.com/citations?user=qc6CJjYAAAAJ"><img src="https://img.shields.io/badge/GOOGLE_SCHOLAR-171917?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar" /></a>
-  <a href="mailto:suhang.xia@kcl.ac.uk"><img src="https://img.shields.io/badge/EMAIL-171917?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Suhang Xia" /></a>
+  <a href="https://suhangxia.github.io">Website</a> &nbsp;·&nbsp;
+  <a href="https://scholar.google.com/citations?user=qc6CJjYAAAAJ">Google Scholar</a> &nbsp;·&nbsp;
+  <a href="mailto:suhang.xia@kcl.ac.uk">Email</a> &nbsp;·&nbsp;
+  <a href="https://github.com/SuhangXia?tab=repositories">Repositories</a>
 </p>
 
-I build robotic systems that turn **multimodal perception into precise physical action**. My work sits between robot learning, visuotactile sensing, and image-guided surgical robotics—with a practical bias toward systems that remain inspectable outside the model.
+<p align="center"><em>Learning to perceive, touch, and act in the physical world.</em></p>
 
-Currently an **MSc Robotics researcher at King’s College London**, supervised by Dr Shan Luo. Previously an Algorithm Engineer at Hangzhou Lancet Robotics.
+I am an MSc Robotics student at **King’s College London**, supervised by **Dr Shan Luo**. I work on vision–tactile–language–action models and robotic manipulation. Previously, I developed calibration and navigation algorithms for surgical robots at **Hangzhou Lancet Robotics**.
 
-```python
-research = {
-    "question": "How can robots perceive uncertainty and act precisely?",
-    "signals":  ["vision", "touch", "language", "force"],
-    "systems":  ["deformable manipulation", "surgical robotics"],
-    "principle": "make every transformation inspectable",
-}
-```
+<p align="center">
+  <img src="./assets/robot-workcell.jpg" width="850" alt="My cloth-manipulation research workcell: Franka robot, fabric fixture, cameras, and acquisition workstation." />
+</p>
 
-## Research loop
+*My cloth-manipulation research workcell: Franka, cameras, fabric fixture, and acquisition system.*
 
-<div align="center">
-  <img src="./assets/research-loop.svg" width="100%" alt="Research loop from perception through representation, planning, action, and feedback" />
-</div>
+## Research
 
-## Selected systems
+### Tactile UMI · Learning from touch
 
-| System | Research question | My work | Links |
-|:--|:--|:--|:--|
-| **Tactile UMI** | How can handheld visuotactile demonstrations become robot-ready trajectories? | Calibrated multimodal acquisition, auditable preprocessing, UniForce-conditioned Diffusion Policy, Franka FR3 deployment | [Portfolio](https://suhangxia.github.io) |
-| **VTLA for Cloth Sorting** | When is a second touch worth its sensing cost? | Fabric-Omni dataset; reliability-guided active tactile perception for thickness and areal-mass estimation | [Portfolio](https://suhangxia.github.io) |
-| **Percutaneous Puncture Robot** | How does an image-space plan become a constrained physical trajectory? | Project leadership; robot, fixture and TCP calibration; Leica metrology; animal-study design | [Portfolio](https://suhangxia.github.io) |
-| **RoboCup UR5e** | How can a modular system perceive, grasp, sort, and recover under time constraints? | Team lead and system architect; ROS orchestration across YOLOv8, GraspNet, MoveIt and execution | [Code](https://github.com/SuhangXia/robocup_ur5e) |
-| **DeCo-MAE** | Can robot-observed actions be represented as composable semantics? | Decomposed action/tool/modifier supervision for unseen-action recognition | [Code](https://github.com/SuhangXia/DeCo-MAE) · [Report](https://github.com/SuhangXia/DeCo-MAE/blob/main/DeCo-MAE_Report_v09.pdf) |
-| **Indoor UAV Navigation** | How can a quadrotor plan smooth collision-free motion indoors? | ROS, PX4, Gazebo and EGO-Planner simulation platform; controller and trajectory analysis | [Portfolio](https://suhangxia.github.io) |
+Turning handheld demonstrations into robot-ready trajectories through calibrated motion, wrist RGB, and fingertip touch. **Visuotactile learning · Diffusion Policy · Franka.**
 
-## Working stack
+### TouchUntilCertain · Knowing when to sense again
+
+Reliability-guided tactile sensing for fabric thickness and areal-mass estimation, built on Fabric-Omni. **Active perception · Uncertainty · Cloth manipulation.**
+
+### Surgical robotics · From images to instruments
+
+Connecting image guidance with robot motion through coordinate transforms, robot and tool calibration, navigation, and system metrology. **Calibration · Image guidance · Control.**
+
+### RoboCup UR5e · Perception to execution
+
+Team lead and system architect for autonomous object sorting, integrating perception, grasp planning, execution, and recovery. **ROS · MoveIt · GraspNet.** [Code ↗](https://github.com/SuhangXia/robocup_ur5e)
+
+**More open-source work** &nbsp; [DeCo-MAE](https://github.com/SuhangXia/DeCo-MAE) — compositional action understanding &nbsp;·&nbsp; [Indoor UAV navigation](https://github.com/SuhangXia/IndoorUAV-NaviAlgoSim) &nbsp;·&nbsp; [Quadrotor control](https://github.com/SuhangXia/quadrotor-pd-control)
+
+## Open source, in numbers
 
 <p>
-  <img src="https://img.shields.io/badge/Python-171917?style=flat-square&logo=python&logoColor=F1EFE8" alt="Python" />
-  <img src="https://img.shields.io/badge/C%2B%2B-171917?style=flat-square&logo=cplusplus&logoColor=F1EFE8" alt="C++" />
-  <img src="https://img.shields.io/badge/ROS-171917?style=flat-square&logo=ros&logoColor=F1EFE8" alt="ROS" />
-  <img src="https://img.shields.io/badge/PyTorch-171917?style=flat-square&logo=pytorch&logoColor=B54B32" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/OpenCV-171917?style=flat-square&logo=opencv&logoColor=F1EFE8" alt="OpenCV" />
-  <img src="https://img.shields.io/badge/MATLAB-171917?style=flat-square&logo=mathworks&logoColor=B54B32" alt="MATLAB" />
-  <img src="https://img.shields.io/badge/Linux-171917?style=flat-square&logo=linux&logoColor=F1EFE8" alt="Linux" />
-  <img src="https://img.shields.io/badge/Git-171917?style=flat-square&logo=git&logoColor=B54B32" alt="Git" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats/overview-dark.svg" />
+    <img src="./assets/stats/overview-light.svg" width="390" alt="Public repository overview; accessible numbers and definitions below." />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats/languages-dark.svg" />
+    <img src="./assets/stats/languages-light.svg" width="390" alt="Primary languages across my public non-fork repositories; details below." />
+  </picture>
 </p>
 
-```text
-PERCEPTION    RGB · GelSight · force · medical imaging
-LEARNING      multimodal representation · imitation learning · uncertainty
-ROBOTICS      calibration · coordinate transforms · planning · control
-VALIDATION    dataset audit · metrology · simulation · physical experiments
-```
+<!-- STATS:START -->
+<details>
+<summary>Statistics &amp; methodology · updated 2026-09-21 UTC</summary>
 
-## Engineering principles
+24 public repositories: **9 non-fork** and **15 forked**. Non-fork repositories have received **26 stars** and **8 forks**.
 
-- **Evidence before claims** — keep data lineage, calibration, and evaluation visible.
-- **Systems over demos** — connect sensing, models, control, and failure recovery end to end.
-- **Uncertainty is actionable** — use confidence to decide when to sense again or stop.
-- **Research should be reproducible** — prefer explicit interfaces, inspectable artifacts, and documented assumptions.
+Primary languages: Python (4) · Astro (1) · HTML (1) · Makefile (1) · MATLAB (1) · Not detected (1). Each non-fork repository counts once, including archived repositories. Repositories without a detected language are shown separately. Language counts describe repository composition, not proficiency or authorship.
 
-<div align="center">
-  <sub>London, United Kingdom · <a href="mailto:suhang.xia@kcl.ac.uk">suhang.xia@kcl.ac.uk</a></sub>
-</div>
+Source: [GitHub REST API](https://api.github.com/users/SuhangXia/repos?type=owner). Public repositories only. [Refresh workflow](https://github.com/SuhangXia/suhangxia/actions/workflows/profile-stats.yml).
+
+</details>
+<!-- STATS:END -->
+
+## Tools I work with
+
+**Code** &nbsp; Python · C++ · MATLAB<br />
+**Robotics** &nbsp; ROS · MoveIt · Gazebo · PX4<br />
+**Learning & sensing** &nbsp; Diffusion Policy · VideoMAE · GelSight · force sensing
+
+---
+
+<p align="center">
+  Interested in tactile intelligence, robot learning, or surgical systems?<br />
+  <a href="mailto:suhang.xia@kcl.ac.uk">Let’s connect.</a> &nbsp; London, UK
+</p>
