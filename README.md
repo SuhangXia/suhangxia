@@ -4,7 +4,6 @@
 
 <p align="center">
   <a href="https://suhangxia.github.io">Website</a> &nbsp;·&nbsp;
-  <a href="https://scholar.google.com/citations?user=qc6CJjYAAAAJ">Google Scholar</a> &nbsp;·&nbsp;
   <a href="mailto:suhang.xia@kcl.ac.uk">Email</a> &nbsp;·&nbsp;
   <a href="https://github.com/SuhangXia?tab=repositories">Repositories</a>
 </p>
