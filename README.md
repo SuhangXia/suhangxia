@@ -53,9 +53,9 @@ Team lead and system architect for autonomous object sorting, integrating percep
 
 <!-- STATS:START -->
 <details>
-<summary>Statistics &amp; methodology · updated 2026-09-27 UTC</summary>
+<summary>Statistics &amp; methodology · updated 2026-09-28 UTC</summary>
 
-24 public repositories: **9 non-fork** and **15 forked**. Non-fork repositories have received **26 stars** and **8 forks**.
+25 public repositories: **9 non-fork** and **16 forked**. Non-fork repositories have received **26 stars** and **8 forks**.
 
 Primary languages: Python (4) · HTML (1) · JavaScript (1) · Makefile (1) · MATLAB (1) · TypeScript (1). Each non-fork repository counts once, including archived repositories. Repositories without a detected language are shown separately. Language counts describe repository composition, not proficiency or authorship.
 
