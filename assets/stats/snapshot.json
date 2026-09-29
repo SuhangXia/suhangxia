@@ -1,6 +1,6 @@
 {
   "owner": "SuhangXia",
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "publicRepositories": 25,
   "nonForkRepositories": 9,
   "forkedRepositories": 16,
@@ -10,6 +10,10 @@
     [
       "Python",
       4
+    ],
+    [
+      "Astro",
+      1
     ],
     [
       "HTML",
@@ -25,10 +29,6 @@
     ],
     [
       "MATLAB",
-      1
-    ],
-    [
-      "TypeScript",
       1
     ]
   ]
